@@ -164,3 +164,35 @@ footer {
   font-family: "Playfair Display", serif;
   font-size: 1.4rem;
 }
+
+/* HERO SPLIT */
+
+.hero {
+  padding: 140px 18%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-rose {
+  width: 260px;
+  opacity: 0.9;
+}
+
+/* mobile */
+
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-rose {
+    width: 200px;
+  }
+}
